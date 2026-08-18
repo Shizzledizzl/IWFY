@@ -1,11 +1,22 @@
-# IWFY
+# IWFY — I Will Find You
 
-Personal project repository for [IWFY](https://github.com/Shizzledizzl/IWFY).
+Clickable UX prototype for reconnecting through a shared encounter, not a public people search.
 
-## Getting started
+This is a local mock. There is no backend, authentication provider, or live data.
 
-This repository is linked to the local workspace at `c:\Users\elroy\Projects\IWFY`.
+## Run locally
 
-## License
+```bash
+npm install
+npm run dev
+```
 
-All rights reserved.
+Open [http://localhost:3000](http://localhost:3000).
+
+The interface is designed for a phone-sized viewport. On desktop it stays constrained to a device-like column.
+
+## Prototype notes
+
+- Login accepts any email and password.
+- State is stored in `localStorage` under `iwfy-prototype-v1`.
+- Reset from **Profiel → Prototype resetten**.
